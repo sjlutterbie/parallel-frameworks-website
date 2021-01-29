@@ -1,0 +1,21 @@
+{
+  "name": "sjlutterbie-website-ui",
+  "version": "1.0.0",
+  "description": "Starting from a blank canvas, building a site that can be rendered in multiple frameworks.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc && npm run build:cp-public",
+    "build:cp-public": "cp ./public/** ./dist",
+    "type": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjlutterbie/parallel-frameworks-website.git"
+  },
+  "author": "Dr. Simon Lutterbie",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^4.1.3"
+  }
+}
