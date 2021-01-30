@@ -18,4 +18,4 @@ npm-debug.log*
 
 # Misc files
 .DS_Store
-notes.md
+notes/
