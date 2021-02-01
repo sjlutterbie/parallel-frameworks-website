@@ -1,4 +1,4 @@
-import { makeParagraph } from "./views.utils.js";
+import { makeParagraph } from "./views.utils";
 
 const PARAGRAPH_1 = `
   Simon is a Frontend Developer who values clean, clear code, test-driven

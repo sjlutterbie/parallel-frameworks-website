@@ -2,12 +2,12 @@
   "compilerOptions": {
     "allowJs": true,
     "checkJs": true,
-
-    "outDir": "dist",
-    "sourceMap": true,
-    "target": "ES6",
     "noImplicitAny": true,
     "noImplicitReturns": true,
-    "strict": true
-  }
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES5",
+    "types": ["node"]
+  },
+  "include": ["src/**/*"]
 }

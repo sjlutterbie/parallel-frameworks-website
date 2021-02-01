@@ -1,8 +1,8 @@
-import { makeAboutSimonView } from "./about-simon.view.js";
-import { makeAboutSiteView } from "./about-this-site.view.js";
-import { makeHomeView } from "./home.view.js";
-import { makeTechUsedView } from "./technology-used.view.js";
-import { renderView } from "./views.utils.js";
+import { makeAboutSimonView } from "./about-simon.view";
+import { makeAboutSiteView } from "./about-this-site.view";
+import { makeHomeView } from "./home.view";
+import { makeTechUsedView } from "./technology-used.view";
+import { renderView } from "./views.utils";
 
 type NavItem = [label: string, viewFn: Function];
 

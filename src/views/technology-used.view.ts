@@ -1,4 +1,4 @@
-import { makeList } from "./views.utils.js";
+import { makeList } from "./views.utils";
 
 const TECH_USED_LIST = ["HTML", "Javascript", "Typescript"];
 

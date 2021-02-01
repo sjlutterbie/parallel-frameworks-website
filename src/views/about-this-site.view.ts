@@ -1,4 +1,4 @@
-import { makeLink, makeList, makeParagraph, makeSpan } from "./views.utils.js";
+import { makeLink, makeList, makeParagraph, makeSpan } from "./views.utils";
 
 const PARAGRAPH_1 = `
   If you're wondering why this site is so basic, that's because it's only
