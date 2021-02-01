@@ -1,4 +1,4 @@
-import { makeParagraph } from "./views.utils";
+import { makeParagraph } from './views.utils';
 
 const PARAGRAPH_1 = `
   Simon is a Frontend Developer who values clean, clear code, test-driven
@@ -15,8 +15,8 @@ const PARAGRPAH_2 = `
 
 const PARAGRAPH_3 = `... Some combinations work better than others.`;
 
-export function makeAboutSimonView() {
-  const view = document.createElement("div");
+export function makeAboutSimonView(): HTMLDivElement {
+  const view = document.createElement('div');
 
   [PARAGRAPH_1, PARAGRPAH_2, PARAGRAPH_3].forEach((paraText) => {
     const paragraph = makeParagraph(paraText);

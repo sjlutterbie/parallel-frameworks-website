@@ -1,0 +1,21 @@
+# Çache files
+.eslintcache
+.npm
+*.tsbuildinfo
+
+# Directories
+dist/
+node_modules/
+
+# Env files
+.env
+.env.test
+
+# Logs
+*.log
+logs
+npm-debug.log*
+
+# Misc files
+.DS_Store
+notes/

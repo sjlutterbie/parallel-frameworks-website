@@ -1,9 +1,9 @@
-import { makeList } from "./views.utils";
+import { makeList } from './views.utils';
 
-const TECH_USED_LIST = ["HTML", "Javascript", "Typescript"];
+const TECH_USED_LIST = ['HTML', 'Javascript', 'Typescript'];
 
-export function makeTechUsedView() {
-  const view = document.createElement("div");
+export function makeTechUsedView(): HTMLDivElement {
+  const view = document.createElement('div');
 
   const list = makeList(TECH_USED_LIST);
   view.appendChild(list);
