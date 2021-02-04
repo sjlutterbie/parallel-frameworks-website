@@ -24,7 +24,7 @@ const paragraph3Segments = [
   makeSpan(`. It will evolve, step-by-step, and each step will be explored and
     documented. You can follow the journey on `),
   makeLink('https://simon-lutterbie.medium.com/', 'Medium'),
-  makeSpan('or'),
+  makeSpan(' or '),
   makeLink(
     'https://github.com/sjlutterbie/parallel-frameworks-website',
     'Github'

@@ -53,16 +53,14 @@ export function makeSpan(text: string): HTMLSpanElement {
   return span;
 }
 
-export function renderView(viewFn: ViewFn): void {
-  const wrapper = clearMainWrapper();
-  const view = viewFn();
-  wrapper?.appendChild(view);
-}
-
-function clearMainWrapper(): HTMLElement | null {
-  const wrapper = document.getElementById('section-content');
-  wrapper?.childNodes.forEach((childNode) => {
-    wrapper.removeChild(childNode);
-  });
-  return wrapper;
+export function renderView(
+  viewFn: ViewFn,
+  wrapperId = 'section-content'
+): void {
+  const wrapper = document.getElementById(wrapperId);
+  if (wrapper) {
+    wrapper.innerHTML = '';
+    const view = viewFn();
+    wrapper?.appendChild(view);
+  }
 }
