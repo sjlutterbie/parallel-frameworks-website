@@ -15,6 +15,11 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.html$/i,
+        exclude: /node_modules/,
+        loader: 'html-loader',
+      },
+      {
         test: /\.[jt]sx?$/,
         exclude: /node_modules/,
         use: {
