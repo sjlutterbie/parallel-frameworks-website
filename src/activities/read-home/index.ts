@@ -1,0 +1,1 @@
+export { mountReadHome } from './mount';

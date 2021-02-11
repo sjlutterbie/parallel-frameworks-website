@@ -8,6 +8,8 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   rules: {
+    '@typescript-eslint/explicit-module-boundary-types': ERROR,
+    '@typescript-eslint/no-unused-vars': ERROR,
     'no-console': ERROR,
     'no-promise-executor-return': ERROR,
     'default-param-last': ERROR,
