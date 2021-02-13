@@ -1,4 +1,5 @@
 import { MountActivityFn } from '../activities.types';
+
 import template from './template.html';
 
 export const mountReadAboutSimon: MountActivityFn = function (
